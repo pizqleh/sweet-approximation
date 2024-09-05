@@ -4,7 +4,7 @@ Spatial audio methods reproduce a desired auditory scene over a region by approx
 
 ## Model
 
-Consider an array of \(n_s\) speakers located at \(x_1, \ldots, x_{n_s} \in \mathbb{R}^3\). When the medium is assumed homogeneous and isotropic, and each loudspeaker is modeled as an isotropic point source, the sound wave they generate is
+Consider an array of $n_s$ speakers located at \(x_1, \ldots, x_{n_s} \in \mathbb{R}^3\). When the medium is assumed homogeneous and isotropic, and each loudspeaker is modeled as an isotropic point source, the sound wave they generate is
 
 $$
 u(t, x) = \sum_{k=1}^{n_s} \frac{\alpha_k(t - c_s^{-1} \|x - x_k\|)}{4 \pi \|x - x_k\|}
