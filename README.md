@@ -19,7 +19,7 @@ $$
 where $\widehat{\alpha}_k$ is the Fourier transform of $\alpha_k$ in time:
 
 $$
-\widehat{\alpha}_k(f) := \int_{R} \alpha_k(t) e^{-2\pi i f t}\, dt.
+\widehat{\alpha}_k(f) := \sum_{R} \alpha_k(t) e^{-2\pi i f t}\, dt.
 $$
 
 Also, consider a target sound wave produced by a point source, which can be modeled in the frequency domain as:
